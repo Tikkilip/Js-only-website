@@ -1,0 +1,23 @@
+.someClass {
+  color: brown;
+}
+
+nav {
+  background-color: rgb(22, 22, 22);
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+}
+
+li {
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
