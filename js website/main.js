@@ -1,12 +1,3 @@
-/*№8. Создать из придуманных массивов типа const headerArray = [{ name: "google", href: "http://google.cpm" }...] 
-хедер и футер с помощью JS. 
-header > nav > ul > li;
-footer > nav > ul > li;
-тег body в html должен быть пустым, все теги вы должны создать с помощью JS.
-Можно использовать классы либо inline-css в js. Работа по парам, пары разбиты были на занятиях. 
-Для тех кого не было : у вас в паре человек который был на занятии, он должен вам написать. 
-Если есть вопросы пишите*/
-
 let header = document.createElement("header");
 header.className = "someClass";
 document.body.append(header);
