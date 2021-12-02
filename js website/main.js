@@ -1,9 +1,9 @@
-let footer = document.createElement("header");
-footer.className = "someClass";
-document.body.append(footer);
+let header = document.createElement("header");
+header.className = "someClass";
+document.body.append(header);
 
 let nav = document.createElement("nav");
-footer.append(nav);
+header.append(nav);
 
 let ul = document.createElement("ul");
 nav.append(ul);
